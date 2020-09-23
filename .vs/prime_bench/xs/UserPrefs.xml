@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{0D9A0C15-706C-4193-B21B-25EBBA11AA4F}|Default">
+  <MonoDevelop.Ide.ItemProperties.prime__bench__cs PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="prime_bench" expanded="True">
+            <Node name="prime_bench" expanded="True" />
+            <Node name="prime_bench_cs" expanded="True">
+              <Node name="prime_bench.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x64" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

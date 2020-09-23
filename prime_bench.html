@@ -1,0 +1,23 @@
+<html>
+<head>
+	<script type="text/javascript" src="prime_bench.js"></script>
+	<script type="text/javascript">
+	function bench() {
+		var size = document.getElementById("size").value - 0;
+		var count = document.getElementById("count").value - 0;
+		var time = new Date();
+		var total = prime_bench(size, count);
+		document.getElementById("output").innerText
+			+= "prime count = " + total + "\n"
+			+ "time(ms) = " + (new Date() - time) + "\n";
+	}
+	</script>
+</head>
+<body>
+	size:<input id="size" type="text" value="1000000"/><br/>
+	count:<input id="count" type="text" value="1000"/><br/>
+	<button onclick="bench();">start</button><br/>
+	<pre id="output"></pre>
+</body>
+</html>
+
